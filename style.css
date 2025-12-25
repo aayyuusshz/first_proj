@@ -18,3 +18,22 @@
    color: #2f4f2f;
    font-weight: bold;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.hero img {
+    width: 300px;   
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b6f44;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
