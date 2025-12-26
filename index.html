@@ -4,28 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plantify</title>
-    <link rel ="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="navbar">
-        <div class="logo">Plantify</div>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Products</a>
-            <a href="#">About us</a>
-            <a href="#">Login</a>
-        </nav>
+        <div class="navbar-left">
+            <img src="leaf.png" alt="Plant Logo" class="logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About us</a>
+            </nav>
+        </div>
+        <div class="navbar-right">
+            <button class="btn-signin">Sign in</button>
+            <button class="btn-signup">Sign up</button>
+        </div>
     </header>
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Bring nature home</h1>
-            <p>Get a range of indoor and outdoor plants!</p>
-            <button>Shop Now</button>
-        </div>
-
+    
+    <div class="hero-section">
+        <div style="background-color:#fcfae8;" class="hero-main-section">
+   
+        <div class="hero-main-text">
+                <p1 class="hero-p1">Plantify</p1>
+                <h1>Bring nature home</h1>
+                <p>Get a range of indoor and outdoor plants!</p>
+                <button style="align-self: flex-start;">Shop Now</button>
+            </div>
+       
         <div class="hero-image">
-        <img src="Plant1.jpeg" alt="Plant">
+        <img src="Plant1.png" alt="Plant">
         </div>
-    </section>
+         </div>
+    </div>
 </body>
 </html>

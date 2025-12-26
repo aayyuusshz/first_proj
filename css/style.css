@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    border-top: 6px solid #3b6f44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    height: 80px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-left nav {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #2f4f2f;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #3b6f44;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.navbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-signin {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #3b6f44;
+    border: 2px solid #3b6f44;
+    border-radius: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-signin:hover {
+    background-color: #3b6f44;
+    color: white;
+}
+
+.btn-signup {
+    padding: 10px 20px;
+    background-color: #3b6f44;
+    color: white;
+    border: 2px solid #3b6f44;
+    border-radius: 45px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-signup:hover {
+    background-color: #2d5432;
+    border-color: #2d5432;
+   
+}
+
+.hero-section {
+    padding:10px 40px;
+   
+   
+}
+.hero-main-section{
+    background-color:#fcfae8;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+   
+}
+.hero-p1 {
+    font-size: 80px;
+    font-weight:lighter;
+    color: #2f4f2f;
+    align-self: flex-start;
+font-family:serif;}  
+
+.hero-image {
+    height: fit-content;
+    object-fit: cover;
+    
+}
+
+.hero-main-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    
+}
+.hero-main-text h1{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: serif;
+}
+.hero-main-text p{
+    font-size: 12px;
+    font-family: serif;
+}
+button {
+    padding: 10px 20px;
+    background-color: #3b6f44;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.primary {
+    color:#3b6f44
+}
+.secodary {
+    color:#f2f3f2
+}
